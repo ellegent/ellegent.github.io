@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name</title>
+  <meta name="description" content="Personal homepage and blog." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="#top">Your Name</a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#blog">Blog</a>
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <!-- Intro -->
+    <section id="about" class="intro">
+      <div class="avatar" aria-hidden="true">YN</div>
+      <h1>Hi, I'm Your Name</h1>
+      <p class="tagline">
+        A short line about what you do. Engineer, writer, tinkerer.
+        Replace this with a sentence or two that sounds like you.
+      </p>
+      <div class="social">
+        <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://www.linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:you@example.com">Email</a>
+      </div>
+    </section>
+
+    <!-- Blog -->
+    <section id="blog" class="blog">
+      <h2>Opinions &amp; Notes</h2>
+      <p class="blog-sub">Thoughts I care enough about to write down.</p>
+
+      <div id="post-list" class="post-list">
+        <p class="loading">Loading posts…</p>
+      </div>
+
+      <article id="post-view" class="post-view" hidden>
+        <button id="back-btn" class="back-btn">&larr; All posts</button>
+        <div id="post-content" class="post-content"></div>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Your Name. Built with plain HTML on GitHub Pages.</p>
+  </footer>
+
+  <!-- Markdown renderer (CDN) -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

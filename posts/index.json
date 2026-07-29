@@ -1,0 +1,14 @@
+[
+  {
+    "slug": "hello-world",
+    "title": "Hello, world",
+    "date": "2026-07-23",
+    "excerpt": "Why I started this blog and what to expect here."
+  },
+  {
+    "slug": "on-simple-tools",
+    "title": "In praise of simple tools",
+    "date": "2026-07-20",
+    "excerpt": "A short opinion on why boring, simple tools usually win."
+  }
+]
