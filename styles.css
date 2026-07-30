@@ -50,13 +50,13 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
 
 /* Intro */
 .intro { padding: 64px 0 48px; text-align: center; }
-.avatar {
-  width: 120px; height: 120px;
-  margin: 0 auto 20px;
-  border-radius: 50%;
+.hero-img {
   display: block;
-  object-fit: cover;
-  border: 2px solid var(--border);
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto 24px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
 }
 .intro h1 { font-size: 2.1rem; margin: 0 0 6px; }
 .role {
