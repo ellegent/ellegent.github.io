@@ -1,10 +1,10 @@
 :root {
-  --bg: #0f1115;
-  --surface: #171a21;
-  --text: #e6e8ec;
-  --muted: #9aa2ad;
-  --accent: #6ea8fe;
-  --border: #262b34;
+  --bg: #ffffff;
+  --surface: #f5f6f8;
+  --text: #1a1d23;
+  --muted: #5b636e;
+  --accent: #2563eb;
+  --border: #e2e5ea;
   --radius: 12px;
   --maxw: 720px;
 }
@@ -28,7 +28,7 @@ a:hover { text-decoration: underline; }
 .site-header {
   position: sticky;
   top: 0;
-  background: rgba(15, 17, 21, 0.85);
+  background: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
   z-index: 10;
