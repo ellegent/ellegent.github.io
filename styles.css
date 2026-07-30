@@ -52,23 +52,29 @@ main { max-width: var(--maxw); margin: 0 auto; padding: 0 20px; }
 .intro {
   padding: 56px 0 48px;
   display: grid;
-  grid-template-columns: 1fr 240px;
-  gap: 36px;
+  grid-template-columns: 1fr 300px;
+  gap: 40px;
   align-items: start;
 }
-.intro-media { position: sticky; top: 80px; }
+.intro-media { display: flex; flex-direction: column; }
 .hero-img {
   display: block;
   width: 100%;
-  max-width: 240px;
+  max-width: 300px;
   border-radius: var(--radius);
   border: 1px solid var(--border);
+  margin-bottom: 20px;
+}
+.bio.side {
+  max-width: none;
+  margin: 0 0 14px;
+  font-size: 0.9rem;
+  text-align: left;
 }
 /* Stack on narrow screens */
 @media (max-width: 640px) {
   .intro { grid-template-columns: 1fr; }
-  .intro-media { position: static; order: -1; }
-  .hero-img { max-width: 200px; margin: 0 auto 8px; }
+  .hero-img { max-width: 240px; margin: 0 auto 16px; }
 }
 .intro h1 { font-size: 2.1rem; margin: 0 0 6px; }
 .role {
